@@ -6,7 +6,7 @@ import dev.enjarai.trickster.spell.Pattern;
 import dev.enjarai.trickster.spell.PatternGlyph;
 import dev.enjarai.trickster.spell.SpellPart;
 
-public class ClearGlyphRevision implements Revision {
+public class ExampleRevision implements Revision {
     @Override
     public Pattern pattern() {
         return Pattern.of(2, 4, 6);

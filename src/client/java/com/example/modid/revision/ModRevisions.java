@@ -4,7 +4,7 @@ import dev.enjarai.trickster.revision.Revision;
 import dev.enjarai.trickster.revision.Revisions;
 
 public class ModRevisions {
-    public static final Revision CLEAR_GLYPH = Revisions.register(new ClearGlyphRevision());
+    public static final Revision EXAMPLE = Revisions.register(new ExampleRevision());
 
     public static void register() {
         // init the class
